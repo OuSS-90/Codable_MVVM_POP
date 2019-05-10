@@ -1,0 +1,6 @@
+framework module Pods_Codable_MVVM_POP {
+  umbrella header "Pods-Codable_MVVM_POP-umbrella.h"
+
+  export *
+  module * { export * }
+}

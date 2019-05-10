@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BC3AB1FD942CBE695B32D71 /* Pods_Codable_MVVM_POP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE55FABD06C84646164AD758 /* Pods_Codable_MVVM_POP.framework */; };
 		CDC2FB7E2285A81700518ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB7D2285A81700518ECC /* AppDelegate.swift */; };
-		CDC2FB802285A81700518ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB7F2285A81700518ECC /* ViewController.swift */; };
 		CDC2FB832285A81700518ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FB812285A81700518ECC /* Main.storyboard */; };
 		CDC2FB852285A81800518ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FB842285A81800518ECC /* Assets.xcassets */; };
 		CDC2FB882285A81800518ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FB862285A81800518ECC /* LaunchScreen.storyboard */; };
+		CDC2FBA32285A8A800518ECC /* AnimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB952285A8A700518ECC /* AnimeListCell.swift */; };
+		CDC2FBA42285A8A800518ECC /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB972285A8A700518ECC /* Bindable.swift */; };
+		CDC2FBA52285A8A800518ECC /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB982285A8A700518ECC /* Extensions+UIView.swift */; };
+		CDC2FBA62285A8A800518ECC /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB9A2285A8A700518ECC /* AnimeViewModel.swift */; };
+		CDC2FBA72285A8A800518ECC /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB9B2285A8A700518ECC /* AnimeListViewModel.swift */; };
+		CDC2FBA82285A8A800518ECC /* AnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB9D2285A8A700518ECC /* AnimeService.swift */; };
+		CDC2FBA92285A8A800518ECC /* AnimesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FB9F2285A8A800518ECC /* AnimesController.swift */; };
+		CDC2FBAA2285A8A800518ECC /* DetailsAnimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBA02285A8A800518ECC /* DetailsAnimeController.swift */; };
+		CDC2FBAB2285A8A800518ECC /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBA22285A8A800518ECC /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59214D5C73851DE448133796 /* Pods-Codable_MVVM_POP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codable_MVVM_POP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codable_MVVM_POP/Pods-Codable_MVVM_POP.debug.xcconfig"; sourceTree = "<group>"; };
+		BE55FABD06C84646164AD758 /* Pods_Codable_MVVM_POP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codable_MVVM_POP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC2FB7A2285A81700518ECC /* Codable_MVVM_POP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codable_MVVM_POP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC2FB7D2285A81700518ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDC2FB7F2285A81700518ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDC2FB822285A81700518ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC2FB842285A81800518ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC2FB872285A81800518ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC2FB892285A81800518ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC2FB952285A8A700518ECC /* AnimeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeListCell.swift; sourceTree = "<group>"; };
+		CDC2FB972285A8A700518ECC /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		CDC2FB982285A8A700518ECC /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		CDC2FB9A2285A8A700518ECC /* AnimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		CDC2FB9B2285A8A700518ECC /* AnimeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
+		CDC2FB9D2285A8A700518ECC /* AnimeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeService.swift; sourceTree = "<group>"; };
+		CDC2FB9F2285A8A800518ECC /* AnimesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimesController.swift; sourceTree = "<group>"; };
+		CDC2FBA02285A8A800518ECC /* DetailsAnimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsAnimeController.swift; sourceTree = "<group>"; };
+		CDC2FBA22285A8A800518ECC /* Anime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		DF45747848E0EA79E3672111 /* Pods-Codable_MVVM_POP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codable_MVVM_POP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codable_MVVM_POP/Pods-Codable_MVVM_POP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC3AB1FD942CBE695B32D71 /* Pods_Codable_MVVM_POP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B66D3A886DE5A576A80A16A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59214D5C73851DE448133796 /* Pods-Codable_MVVM_POP.debug.xcconfig */,
+				DF45747848E0EA79E3672111 /* Pods-Codable_MVVM_POP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		868D9A0D0D9FC91AB070165E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE55FABD06C84646164AD758 /* Pods_Codable_MVVM_POP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDC2FB712285A81700518ECC = {
 			isa = PBXGroup;
 			children = (
 				CDC2FB7C2285A81700518ECC /* Codable_MVVM_POP */,
 				CDC2FB7B2285A81700518ECC /* Products */,
+				2B66D3A886DE5A576A80A16A /* Pods */,
+				868D9A0D0D9FC91AB070165E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,70 @@
 		CDC2FB7C2285A81700518ECC /* Codable_MVVM_POP */ = {
 			isa = PBXGroup;
 			children = (
+				CDC2FB9E2285A8A800518ECC /* Controller */,
+				CDC2FBA12285A8A800518ECC /* Model */,
+				CDC2FB9C2285A8A700518ECC /* Service */,
+				CDC2FB962285A8A700518ECC /* Utils */,
+				CDC2FB942285A8A700518ECC /* View */,
+				CDC2FB992285A8A700518ECC /* ViewModel */,
 				CDC2FB7D2285A81700518ECC /* AppDelegate.swift */,
-				CDC2FB7F2285A81700518ECC /* ViewController.swift */,
 				CDC2FB812285A81700518ECC /* Main.storyboard */,
 				CDC2FB842285A81800518ECC /* Assets.xcassets */,
 				CDC2FB862285A81800518ECC /* LaunchScreen.storyboard */,
 				CDC2FB892285A81800518ECC /* Info.plist */,
 			);
 			path = Codable_MVVM_POP;
+			sourceTree = "<group>";
+		};
+		CDC2FB942285A8A700518ECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FB952285A8A700518ECC /* AnimeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDC2FB962285A8A700518ECC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FB972285A8A700518ECC /* Bindable.swift */,
+				CDC2FB982285A8A700518ECC /* Extensions+UIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDC2FB992285A8A700518ECC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FB9A2285A8A700518ECC /* AnimeViewModel.swift */,
+				CDC2FB9B2285A8A700518ECC /* AnimeListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDC2FB9C2285A8A700518ECC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FB9D2285A8A700518ECC /* AnimeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CDC2FB9E2285A8A800518ECC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FB9F2285A8A800518ECC /* AnimesController.swift */,
+				CDC2FBA02285A8A800518ECC /* DetailsAnimeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDC2FBA12285A8A800518ECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBA22285A8A800518ECC /* Anime.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC2FB8C2285A81800518ECC /* Build configuration list for PBXNativeTarget "Codable_MVVM_POP" */;
 			buildPhases = (
+				A79CF36D5FEEF3BE0D381848 /* [CP] Check Pods Manifest.lock */,
 				CDC2FB762285A81700518ECC /* Sources */,
 				CDC2FB772285A81700518ECC /* Frameworks */,
 				CDC2FB782285A81700518ECC /* Resources */,
+				6D51EC94A034E493106274F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +228,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D51EC94A034E493106274F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Codable_MVVM_POP/Pods-Codable_MVVM_POP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Codable_MVVM_POP/Pods-Codable_MVVM_POP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79CF36D5FEEF3BE0D381848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codable_MVVM_POP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDC2FB762285A81700518ECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC2FB802285A81700518ECC /* ViewController.swift in Sources */,
+				CDC2FBA62285A8A800518ECC /* AnimeViewModel.swift in Sources */,
+				CDC2FBA72285A8A800518ECC /* AnimeListViewModel.swift in Sources */,
+				CDC2FBA92285A8A800518ECC /* AnimesController.swift in Sources */,
+				CDC2FBA82285A8A800518ECC /* AnimeService.swift in Sources */,
+				CDC2FBAA2285A8A800518ECC /* DetailsAnimeController.swift in Sources */,
+				CDC2FBA32285A8A800518ECC /* AnimeListCell.swift in Sources */,
+				CDC2FBAB2285A8A800518ECC /* Anime.swift in Sources */,
 				CDC2FB7E2285A81700518ECC /* AppDelegate.swift in Sources */,
+				CDC2FBA52285A8A800518ECC /* Extensions+UIView.swift in Sources */,
+				CDC2FBA42285A8A800518ECC /* Bindable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +427,7 @@
 		};
 		CDC2FB8D2285A81800518ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59214D5C73851DE448133796 /* Pods-Codable_MVVM_POP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +445,7 @@
 		};
 		CDC2FB8E2285A81800518ECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF45747848E0EA79E3672111 /* Pods-Codable_MVVM_POP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
