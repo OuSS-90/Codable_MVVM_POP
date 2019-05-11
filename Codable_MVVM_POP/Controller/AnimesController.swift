@@ -13,7 +13,7 @@ class AnimesController: UITableViewController {
     
     let cellId = "cellId"
     private let hud = JGProgressHUD(style: .dark)
-    var presenter: AnimeListViewModel?
+    var animeListViewModel: AnimeListViewModel?
     var animes = [AnimeViewModel]()
 
     override func viewDidLoad() {
@@ -34,8 +34,8 @@ class AnimesController: UITableViewController {
     }
 
     fileprivate func setupPresenter() {
-        presenter = AnimeListViewModel(delegate: self)
-        presenter?.fetchAnimes()
+        animeListViewModel = AnimeListViewModel(delegate: self)
+        animeListViewModel?.fetchAnimes()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
